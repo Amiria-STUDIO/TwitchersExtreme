@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "twithersextreme:block/firecharger"
+    },
+    "facing=east": {
+      "model": "twithersextreme:block/firecharger",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "twithersextreme:block/firecharger",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "twithersextreme:block/firecharger",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "twithersextreme:block/firecharger",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "twithersextreme:block/firecharger",
+      "x": 90
+    }
+  }
+}

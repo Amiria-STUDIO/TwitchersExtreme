@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "twithersextreme:blocks/chargeur",
+    "up": "twithersextreme:blocks/chargeur",
+    "north": "twithersextreme:blocks/charger_fire",
+    "east": "twithersextreme:blocks/chargeur",
+    "south": "twithersextreme:blocks/chargeur",
+    "west": "twithersextreme:blocks/chargeur",
+    "particle": "twithersextreme:blocks/chargeur"
+  }
+}

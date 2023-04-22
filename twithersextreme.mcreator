@@ -1,0 +1,66 @@
+{
+  "mod_elements": [
+    {
+      "name": "Firecharger",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firecharger",
+      "path": "~/machine/charger/fire"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.twithersextreme.firecharger": "Fire charger"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "minerai",
+        "children": []
+      },
+      {
+        "name": "machine",
+        "children": [
+          {
+            "name": "charger",
+            "children": [
+              {
+                "name": "fire",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "twithersextreme",
+    "modName": "Twithers Extreme",
+    "version": "1.0.0",
+    "author": "Amiria Studio",
+    "websiteURL": "https://www.amiria.ml",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "just_enough_items",
+      "curios_api",
+      "ctm"
+    ],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Mod made by SkyAndCraft",
+    "modElementsPackage": "fr.amiriastudio.twithersextreme",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

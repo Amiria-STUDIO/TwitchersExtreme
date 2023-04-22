@@ -1,0 +1,40 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="twithersextreme"
+version="1.0.0"
+displayName="Twithers Extreme"
+credits="Mod made by SkyAndCraft"
+displayURL="https://www.amiria.ml"
+authors="Amiria Studio"
+
+[[dependencies.twithersextreme]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.twithersextreme]]
+    modId="just_enough_items"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.twithersextreme]]
+    modId="curios_api"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.twithersextreme]]
+    modId="ctm"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

@@ -1,0 +1,40 @@
+repositories {
+  maven {
+    // location of the maven that hosts JEI files
+  name = "Progwml6 maven"
+  url = "https://dvs1.progwml6.com/files/maven/"
+  }
+  maven {
+    // location of a maven mirror for JEI files, as a fallback
+     name = "ModMaven"
+  url = "https://modmaven.k-4u.nl"
+  }     
+}
+
+dependencies {
+  compileOnly fg.deobf("mezz.jei:jei-1.18.2:9.5.0.132:api")
+  runtimeOnly fg.deobf("mezz.jei:jei-1.18.2:9.5.0.132")
+}
+
+repositories {
+maven {
+  url = "https://maven.theillusivec4.top/"
+  }
+}
+
+dependencies {
+  runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:1.18.2-5.0.6.3")
+  compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:1.18.2-5.0.6.3:api")
+}
+
+repositories {
+    mavenCentral()
+    maven {
+    name = "Tterrag maven (CTM)"
+    url = "https://maven.tterrag.com/"
+    }
+}
+dependencies {
+    runtimeOnly fg.deobf("team.chisel.ctm:CTM:1.18.2-1.1.5+5")
+}
+
