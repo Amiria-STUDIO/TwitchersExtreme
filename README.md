@@ -1,3 +1,3 @@
 # TwitchersExtreme             
-#                            Made By Amiria STUDIO                                   #
+Made By Amiria STUDIO
 
