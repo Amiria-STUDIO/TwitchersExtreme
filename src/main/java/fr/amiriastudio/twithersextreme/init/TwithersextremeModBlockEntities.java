@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 
 import fr.amiriastudio.twithersextreme.block.entity.FirechargerBlockEntity;
+import fr.amiriastudio.twithersextreme.block.entity.CableBlockEntity;
 import fr.amiriastudio.twithersextreme.TwithersextremeMod;
 
 public class TwithersextremeModBlockEntities {
@@ -19,6 +20,7 @@ public class TwithersextremeModBlockEntities {
 			TwithersextremeMod.MODID);
 	public static final RegistryObject<BlockEntityType<?>> FIRECHARGER = register("firecharger", TwithersextremeModBlocks.FIRECHARGER,
 			FirechargerBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> CABLE = register("cable", TwithersextremeModBlocks.CABLE, CableBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block,
 			BlockEntityType.BlockEntitySupplier<?> supplier) {

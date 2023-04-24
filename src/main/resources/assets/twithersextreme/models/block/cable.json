@@ -1,0 +1,8 @@
+{
+  "parent": "twithersextreme:custom/cable",
+  "textures": {
+    "all": "twithersextreme:blocks/texture_cable",
+    "particle": "twithersextreme:blocks/texture_cable",
+    "0": "twithersextreme:blocks/tin_ore"
+  }
+}

@@ -8,13 +8,65 @@
       "locked_code": false,
       "registry_name": "firecharger",
       "path": "~/machine/charger/fire"
+    },
+    {
+      "name": "Cable",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable",
+      "path": "~/machine"
+    },
+    {
+      "name": "Guifirecharger",
+      "type": "gui",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guifirecharger",
+      "path": "~/machine/charger/fire"
+    },
+    {
+      "name": "Procfirecharge",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procfirecharge",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/machine/charger/fire"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.twithersextreme.firecharger": "Fire charger"
+      "block.twithersextreme.firecharger": "Fire charger",
+      "block.twithersextreme.cable": "Cable"
     }
   },
   "foldersRoot": {
@@ -35,6 +87,10 @@
                 "children": []
               }
             ]
+          },
+          {
+            "name": "electrical light",
+            "children": []
           }
         ]
       }
